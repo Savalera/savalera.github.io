@@ -1,38 +1,34 @@
-<footer class="site-footer">
+<footer class="page-footer purple">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h6 class="white-text">Company Bio</h6>
+                <p class="grey-text text-lighten-4">
+                    Savalera Ltd. was established in 2013 by consulting and telco professionals.
 
-  <div class="wrapper">
+The vision behind Savalera is to embrace internet information on a whole new level.
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+We work every day to connect related low-level web data across websites, social platforms and APIs.
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+We collect and present online information that our customers want to see in one place.
+                </p>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="white-text">Company info</h6>
+                <p class="grey-text text-lighten-4">Register number: 01-09-172571</p>
+                <p class="grey-text text-lighten-4">EU VAT number: HU 24332183</p>
+            </div>
+            <div class="col l3 s12">
+                <h6 class="white-text"><i class="material-icons footer-icon">room</i> Address</h6>
+                <p class="grey-text text-lighten-4">Nr. 8 Toberek u. Budapest, Hungary 1112</p>
+                <h6 class="white-text"><i class="material-icons footer-icon">call</i> Phone</h6>
+                <p class="grey-text text-lighten-4">+3630 221 3723</p>
+            </div>
+        </div>
     </div>
-
-  </div>
-
+    <div class="footer-copyright">
+        <div class="container">
+            &copy; 2013 - {{ site.time | date: "%Y" }} Savalera Ltd. Hosted on GitHub Pages.
+        </div>
+    </div>
 </footer>

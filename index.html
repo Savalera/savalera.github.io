@@ -1,23 +1,93 @@
 ---
 layout: default
 ---
+<div class="parallax-container">
+    <div class="section no-pad-bot">
+        <div class="container">
+            <br />
+            <br />
+            <br />
+            <!-- <h1 class="header center purple-text text-lighten-1">Linking traditional with digital</h1> -->
+            <div class="row center">
+                <div class="card front-page-greeting">
+                    <div class="card-content">
+                        <h1 class="header center purple-text text-lighten-1">Linking enterprise with digital</h1>
+                        <div class="row center purple-text">
+                            <h5 class="header col s12 light ">
+                                We help you launch digital products and services.
+                            </h5>
+                        </div>
+                        <div class="row center">
+                            <a href="mailto:info@savalera.com" class="btn-large waves-effect waves-light purple lighten-1 white-text">Let's talk</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-<div class="home">
+            <!-- <div class="row center">
+                <h5 class="header col s12 light purple-text text-darken-2">
+                    Go digital with your enterprice business!
+                </h5>
+            </div>
+            <div class="row center">
+                <a href="mailto:info@savalera.com" class="btn-large waves-effect waves-light purple lighten-1 white-text">Contact us</a>
+            </div> -->
+        </div>
+        <div class="parallax">
+            <!-- <img src="/assets/aircraft-manchester-jet-fly.jpg" alt="" style="display: block; transform: translate3d(-50%, 236px, 0px);"> -->
+            <!-- <img src="/assets/pexels-photo-54380.jpg" alt="" style="display: block; transform: translate3d(-50%, 236px, 0px);"> -->
+            <img src="/assets/negativespace-3.jpg" alt="" style="display: block; transform: translate3d(-50%, 236px, 0px);">
 
-  <h1 class="page-heading">Posts</h1>
+        </div>
+    </div>
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div class="container">
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block what-we-do">
+                    <h2 class="center pink-text">
+                        <i class="material-icons">group</i>
+                    </h2>
+                    <h5 class="center">Business Development and Growth Consulting</h5>
+                    <p class="light">We work with startups and creative organizations in the early phases of product and service launch. We add value in the following fields:</p>
+                    <ul>
+                        <li>market positioning, demand research, competitive analysis</li>
+                        <li>product / service presentation</li>
+                        <li>b2b product / service promotion</li>
+                        <li>organizational development</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block what-we-do">
+                    <h2 class="center pink-text">
+                        <i class="material-icons">trending_up</i>
+                    </h2>
+                    <h5 class="center">Digital ventures</h5>
+                    <p class="light">We operate our own ventures in the digital world. We practice what we preach. By launching and continuously improving our on-line businesses we keep ourself fresh and up-to-date with business and technology aspects of today. Our ventures:</p>
+                    <ul>
+                        <li><a href="#">vanitysocks.com</a></li>
+                        <li><a href="#">takacsmark.com</a></li>
+                        <li><a href="#">My sweet counter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="icon-block what-we-do">
+                    <h2 class="center pink-text">
+                        <i class="material-icons">web</i>
+                    </h2>
+                    <h5 class="center">Web-app consulting and development</h5>
+                    <p class="light"></p>
+                    <ul>
+                        <li>front-end and back-end development (React, Redux, Node, PHP, Wordpress, Django, Python, Mongo, SQL, PHP Fat-Free Framework, Javascript, HTML, CSS, SASS, Jekyll)</li>
+                        <li>mobile app development (React Native)</li>
+                        <li>build for the cloud (Digital Ocean, Heroku, es3, OpenShift, Google Cloud)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
