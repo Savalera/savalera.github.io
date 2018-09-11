@@ -1,10 +1,14 @@
 version: '3'
 services:
     jekyll:
-        image: jekyll/jekyll:pages
+        image: jekyll/jekyll:3.8.3
         container_name: savalera-dot-com
-        command: bundle exec jekyll serve --host 0.0.0.0 --drafts --config _config.yml,_config_dev.yml --watch --incremental
+        # command: bundle exec jekyll serve --host 0.0.0.0 --drafts --config _config.yml,_config_dev.yml --watch --incremental
+        command: jekyll serve --host 0.0.0.0 --config _config.yml,_config_dev.yml --watch
+
         ports:
             - 4000:4000
+            - 35729:35729
         volumes:
-            - .:/srv/jekyll
+            - $PWD:/srv/jekyll
+            - $PWD/vendor/bundle:/usr/local/bundle
