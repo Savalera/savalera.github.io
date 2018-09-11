@@ -77,7 +77,7 @@ Once the retention period expires, Personal Data shall be deleted. Therefore, th
 
 ## The purposes of processing
 
-The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the following purposes: **Analytics, Managing contacts and sending messages and Selling goods and services on-line**.
+The Data concerning the User is collected to allow the Owner to provide its Services, as well as for the following purposes: **Analytics**.
 
 Users can find further detailed information about such purposes of processing and about the specific Personal Data used for each purpose in the respective sections of this document.
 
@@ -96,7 +96,7 @@ Google may use the Data collected to contextualize and personalize the ads of it
 
 Personal Data collected: Cookies and Usage Data.
 
-Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy) – [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=en). Privacy Shield participant.
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy){:target="_blank"} – [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=en){:target="_blank"}. Privacy Shield participant.
 
 ## The rights of Users
 
